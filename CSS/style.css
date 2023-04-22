@@ -1,0 +1,48 @@
+:root {
+    --navGrey: #353a40;
+    --navLetras: #899ba1;
+    --buttonComprar: #29a744;
+    --buttonEnviar: #96c93e;
+    --footerBlueStart: #1c3541;
+    --footerBlueEnd: #1e5372;
+}
+
+.navColor{
+    background-color: var(--navGrey);
+} 
+
+#buyTkt{
+    color: var(--buttonComprar);
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+
+.navbar-nav .nav-link {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+.navbar-nav::selection{
+    color: #FFF;
+}
+  
+
+#img-BsAs{
+    --bs-gutter-x: none;
+    z-index: 0;
+}
+
+#texto-BsAs{
+    z-index: 1;
+}
+
+.oscurecer-img{
+    filter: brightness(50%);
+}
+
+.img-oradores-size{
+    width: 325px;  
+    height: auto;   
+}
