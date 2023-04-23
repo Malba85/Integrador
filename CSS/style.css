@@ -7,6 +7,8 @@
     --footerBlueEnd: #1e5372;
 }
 
+/* NAV */
+
 .navColor{
     background-color: var(--navGrey);
 } 
@@ -17,6 +19,8 @@
 
 .navbar {
     --bs-navbar-padding-y: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .navbar-nav .nav-link {
@@ -27,7 +31,6 @@
 .navbar-nav::selection{
     color: #FFF;
 }
-  
 
 #img-BsAs{
     --bs-gutter-x: none;
@@ -46,3 +49,4 @@
     width: 325px;  
     height: auto;   
 }
+
