@@ -50,3 +50,10 @@
     height: auto;   
 }
 
+u{
+    text-decoration-style: dotted;
+}
+
+#smallText{
+    color:#6e7d81;
+}
