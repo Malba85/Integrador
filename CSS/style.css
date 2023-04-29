@@ -57,3 +57,11 @@ u{
 #smallText{
     color:#6e7d81;
 }
+
+footer>div>div>a{
+    max-width: 90px;
+}
+
+.bg-gradient-primary {
+    background-image: linear-gradient(to right, #1c3541, #1e5372);
+  }
