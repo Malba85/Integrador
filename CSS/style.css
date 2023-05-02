@@ -37,6 +37,37 @@
     z-index: 0;
 }
 
+.land-page-img{
+    overflow: hidden;
+}
+
+.carousel-caption{
+    position: absolute; 
+    bottom: 220px; 
+    right: 110px
+}
+
+.btns-carousel{
+    position: absolute; 
+    bottom: 180px; 
+    right: 110px
+}
+
+.btn-carousel{
+    width: 160px; 
+    height: 40px
+}
+
+#oradores-cards{
+    overflow: hidden"
+}
+
+.card-body{
+    --bs-btn-padding-y: 0.1rem;
+    --bs-btn-padding-x: 0.1rem;
+    --bs-btn-font-size: 0.5rem;
+}
+
 #texto-BsAs{
     z-index: 1;
 }
