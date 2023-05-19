@@ -151,7 +151,7 @@
                     <div class="form-group me-4 w-50">
                       <label for="inputCantidad">Cantidad</label>
                       <input
-                        type="text"
+                        type="number"
                         class="form-control mt-2"
                         id="inputCantidad"
                         placeholder="Cantidad"
@@ -162,10 +162,7 @@
                       <label for="categorySelect" class="form-label"
                         >Category</label
                       >
-                      <select
-                        id="categorySelect"
-                        class="form-select"
-                      >
+                      <select id="categorySelect" class="form-select">
                         <option value="students" selected>Estudiante</option>
                         <option value="trainee">Trainee</option>
                         <option value="junior">Junior</option>
@@ -174,14 +171,22 @@
                   </div>
                 </div>
 
-                <output class="outputColor text-primary w-100 mb-4 ps-3 py-2"
-                  >Total a Pagar: $</output
+                <output
+                  id="totalOutput"
+                  class="outputColor text-primary w-100 mb-4 ps-3 py-2"
                 >
+                  Total a Pagar: $
+                </output>
+
                 <div class="form-row d-flex mb-3">
                   <button type="submit" class="btn btn-success w-50 me-4">
                     Enviar
                   </button>
-                  <button type="submit" class="btn btn-success w-50">
+                  <button
+                    id="summaryButton"
+                    type="button"
+                    class="btn btn-success w-50"
+                  >
                     Resumen
                   </button>
                 </div>
@@ -217,5 +222,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="calcular-ticket.js"></script>
   </body>
 </html>
